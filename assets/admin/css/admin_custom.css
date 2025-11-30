@@ -1,0 +1,21 @@
+.error {
+    color: red;
+    text-align: left;
+}
+
+label {
+    font-weight: 700 !important;
+}
+
+.menu-toggle:before {
+    content: "\25bc";
+}
+
+.menu-toggle.toggled:after {
+    content: "\25b2";
+}
+
+.youtube_iframe iframe {
+    height: 300px;
+    width: 380px;
+}
