@@ -54,63 +54,16 @@ $route['default_controller'] = 'home';
 /**** User routes ****/
 $route['/'] = 'home';
 $route['home'] = 'home';
-
-$route['aboutus'] = 'home/about_us';
-
+$route['about-us'] = 'home/about_us';
+$route['services'] = 'services';
+$route['blogs'] = 'blogs';
 $route['contact-us'] = 'contactus';
 $route['submit-contact'] = 'contactus/submit_contact';
-
-$route['products'] = 'products';
-$route['products/category/(:any)'] = 'products/category/$1';
-$route['products-detail/(:any)'] = 'products/product_detail/$1';
-
-$route['ratings/submit'] = 'ratings/submit';
-
 $route['privacy-policy'] = 'policy/privacy_policy';
 $route['terms-conditions'] = 'policy/terms_conditions';
 $route['cancel-policy'] = 'policy/cancel_policy';
 $route['refund-policy'] = 'policy/refund_policy';
-$route['shipping-policy'] = 'policy/shipping_policy';
 
-$route['register'] = 'users/auth/register';
-$route['login'] = 'users/auth/login';
-$route['logout'] = 'users/auth/logout';
-$route['forgot-password'] = 'users/auth/forgot_password';
-$route['reset-password'] = 'users/auth/reset_password';
-
-$route['submit-register'] = 'users/auth/submit_register';
-$route['submit-login'] = 'users/auth/submit_login';
-$route['submit-forgot-password'] = 'users/auth/submit_forgot_password';
-
-$route['user/dashboard'] = 'users/account/dashboard';
-$route['user/orders'] = 'users/account/orders';
-$route['user/address-details'] = 'users/account/address_details';
-$route['user/change-password'] = 'users/account/change_password';
-
-$route['user/update-account-details'] = 'users/account/update_account_details';
-$route['user/update-account-password'] = 'users/account/update_account_password';
-$route['user/save-billing-address'] = 'users/account/save_billing_address';
-$route['user/save-shipping-address'] = 'users/account/save_shipping_address';
-$route['user/delete-address/(:any)'] = 'users/account/delete_address/$1';
-
-$route['user/view-invoice/(:any)'] = 'users/account/generate_invoice/$1';
-$route['user/save-invoice/(:any)'] = 'users/account/save_invoice/$1';
-
-$route['cart'] = 'cart';
-$route['cart/add'] = 'cart/add';
-$route['cart/update'] = 'cart/update_qty';
-$route['cart/remove'] = 'cart/remove';
-$route['cart/get_cart'] = 'cart/get_cart';
-
-// Checkout Page
-$route['checkout'] = 'checkout/index';
-// Place Order (POST)
-$route['checkout/place-order'] = 'checkout/place_order';
-// Cashfree Callback/Return URL
-$route['checkout/cashfree-callback'] = 'checkout/cashfree_callback';
-// Order Success & Failure
-$route['checkout/success/(:num)'] = 'checkout/success/$1';
-$route['checkout/failure/(:num)'] = 'checkout/failure/$1';
 
 
 

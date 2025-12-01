@@ -2,11 +2,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 
-define('SITE_NAME', 'Swing Well');
-define('SITE_EMAIL', 'info@swingwell.com');
-define('SITE_URL', 'https://swingwell.com/');
-define('ERROR_PRIMARY_COLOR', '#ed3337');
-define('ERROR_DARKER_COLOR', '#b50004');
+define('SITE_NAME', 'Akshar Webtech');
+define('SITE_EMAIL', 'info@aksharwebtech.com');
+define('SITE_URL', 'https://aksharwebtech.com/');
+define('ERROR_PRIMARY_COLOR', '#fd8b56');
+define('ERROR_DARKER_COLOR', '#EA3368');
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

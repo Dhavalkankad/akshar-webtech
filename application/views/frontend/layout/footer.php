@@ -56,9 +56,9 @@
                             <div class="footer-widget links-widget">
                                 <h4>Contact info</h4>
                                 <ul class="list-style-two">
-                                    <li><span class="icon flaticon-wall-clock"></span>Mon – Sat 10:00pm - 8:00pm</li>
-                                    <li><span class="icon flaticon-phone-call"></span><a href="tel:+0987-654-321">0987 654 321</a> <a href="tel:+0123-456-789">0123 456 789</a></li>
-                                    <li><span class="icon flaticon-email"></span><a href="mailto:Merix@gmail.com">Merix@gmail.com</a></li>
+                                    <li><span class="icon flaticon-wall-clock"></span>Mon - Sat 10:00 AM to 7:00 PM</li>
+                                    <li><span class="icon flaticon-phone-call"></span><a href="tel:+91-000999-0099">+91-000999-0099</a></li>
+                                    <li><span class="icon flaticon-email"></span><a href="mailto:info@aksharwebtech.com">info@aksharwebtech.com</a></li>
                                     <li><span class="icon flaticon-maps-and-flags"></span>16122 Collins Street West, Melbourne, VIC Srsars</li>
                                 </ul>
                             </div>
