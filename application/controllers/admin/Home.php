@@ -9,10 +9,6 @@ class Home extends CI_Controller
         parent::__construct();
         $this->load->model('Settings_model');
         $this->load->model('Contactus_model');
-        $this->load->model('Products_model');
-        $this->load->model('Orders_model');
-        $this->load->model('Users_model');
-        $this->load->model('Category_model');
         $this->load->model('Testimonials_model');
         $isLoggedIn = $this->session->userdata('isUserLoggedIn');
         if (!($isLoggedIn)) {
@@ -22,36 +18,15 @@ class Home extends CI_Controller
 
     public function dashboard()
     {
-        $data = array();
-        $pcon = array(
-            'returnType' => 'count'
-        );
-        $total_products = $this->Products_model->get_all_products($pcon);
-        $catcon = array(
-            'returnType' => 'count'
-        );
-        $total_cateogry = $this->Category_model->get_all_categories($catcon);
         $ccon = array(
             'returnType' => 'count'
         );
         $total_contactus = $this->Contactus_model->getRows($ccon);
-        $ocon = array(
-            'returnType' => 'count'
-        );
-        $total_orders = $this->Orders_model->getRows($ocon);
-        $ucon = array(
-            'returnType' => 'count'
-        );
-        $total_users = $this->Users_model->getRows($ucon);
         $tcon = array(
             'returnType' => 'count'
         );
         $total_testimonials = $this->Testimonials_model->get_all_testimonials($tcon);
-        $data['total_products'] = ($total_products > 0) ? $total_products : 0;
-        $data['total_orders'] = ($total_orders > 0) ? $total_orders : 0;
-        $data['total_users'] = ($total_users > 0) ? $total_users : 0;
         $data['total_contactus'] = ($total_contactus > 0) ? $total_contactus : 0;
-        $data['total_cateogry'] = ($total_cateogry > 0) ? $total_cateogry : 0;
         $data['total_testimonials'] = ($total_testimonials > 0) ? $total_testimonials : 0;
         $this->load->view('admin/dashboard', $data);
     }

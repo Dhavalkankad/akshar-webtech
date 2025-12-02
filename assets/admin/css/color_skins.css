@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #14a3d8;
+    --primary-color: linear-gradient(to right, #fd8b56 0%, #EA3368 100%);
 }
 
 .theme-black .minileftbar {

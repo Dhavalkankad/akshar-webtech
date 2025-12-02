@@ -73,49 +73,9 @@
     </div>
 </footer>
 </div>
-<div class="color-palate">
-    <div class="color-trigger">
-        <i class="fa fa-gear"></i>
-    </div>
-    <div class="color-palate-head">
-        <h6>Choose Your Options</h6>
-    </div>
-    <h5>RTL Version</h5>
-    <ul class="rtl-version option-box">
-        <li class="rtl">RTL Version</li>
-        <li>LTR Version</li>
-    </ul>
-    <h5>Boxed Version</h5>
-    <ul class="box-version option-box">
-        <li class="box">Boxed</li>
-        <li>Full width</li>
-    </ul>
-    <h5>Want Sticky Header</h5>
-    <ul class="header-version option-box">
-        <li class="box">No</li>
-        <li>Yes</li>
-    </ul>
-    <h5>Dark Verion</h5>
-    <ul class="dark-version option-box">
-        <li class="box">Yes</li>
-        <li>No</li>
-    </ul>
-    <a href="#" class="purchase-btn">Purchase now $17</a>
-    <div class="palate-foo">
-        <span>You will find much more options and styling in admin panel.</span>
-    </div>
+<div class="back-to-top scroll-to-target" data-target="html">
+    <i class="arrow-up"></i>
 </div>
-<div class="search-popup">
-    <button class="close-search style-two"><span class="flaticon-multiply"></span></button>
-    <button class="close-search"><span class="fa fa-arrow-up"></span></button>
-    <form method="post" action="https://html.themerange.net/merix/merix/blog.html">
-        <div class="form-group">
-            <input type="search" name="search-field" value="" placeholder="Search Here" required="">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </div>
-    </form>
-</div>
-<div class="back-to-top scroll-to-target show-back-to-top" data-target="html">TOP</div>
 <script src="<?= base_url('assets/js/jquery.js'); ?>"></script>
 <script src="<?= base_url('assets/js/popper.min.js'); ?>"></script>
 <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>

@@ -36,23 +36,13 @@
 
                 <li class="open <?php echo ($this->uri->segment(2) == 'category-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/category-list'); ?>"><i class="zmdi zmdi-format-list-bulleted"></i><span>Category</span></a></li>
 
-                <li class="open <?php echo ($this->uri->segment(2) == 'products-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/products-list'); ?>"><i class="zmdi zmdi-shopping-cart"></i><span>Products</span></a></li>
-
-                <li class="open <?php echo ($this->uri->segment(2) == 'orders-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/orders-list'); ?>"><i class="zmdi zmdi-shopping-basket"></i><span>Orders</span></a></li>
-
-                <li class="open <?php echo ($this->uri->segment(2) == 'payments-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/payments-list'); ?>"><i class="zmdi" style="font-weight: 700;">&#8377;</i><span>Payments</span></a></li>
-
-                <li class="open <?php echo ($this->uri->segment(2) == 'users-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/users-list'); ?>"><i class="zmdi zmdi-accounts"></i><span>Users</span></a></li>
-
                 <li class="open <?php echo ($this->uri->segment(2) == 'testimonials-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/testimonials-list'); ?>"><i class="zmdi zmdi-quote"></i><span>Testimonials</span></a></li>
 
                 <li class="open <?php echo ($this->uri->segment(2) == 'slider-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/slider-list'); ?>"><i class="zmdi zmdi-image"></i><span>Slider</span></a></li>
 
-                <li class="open <?php echo ($this->uri->segment(2) == 'coupon-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/coupon-list'); ?>"><i class="zmdi zmdi-ticket-star"></i><span>Coupon</span></a></li>
-
                 <li class="<?php echo ($this->uri->segment(2) == 'homepage-details' || $this->uri->segment(2) == 'service-support-details' || $this->uri->segment(2) == 'privacy-policy-page-details' || $this->uri->segment(2) == 'terms-conditions-page-details' || $this->uri->segment(2) == 'cancellation-returns-policy-page-details' || $this->uri->segment(2) == 'refund-policy-page-details' || $this->uri->segment(2) == 'shipping-policy-page-details' || $this->uri->segment(2) == 'aboutpage-details') ? 'open active' : ''; ?>"> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-file-text"></i><span>Pages details</span></a>
                     <ul class="ml-menu">
-                        <!-- <li><a href="<?php echo base_url('admin/homepage-details'); ?>">Home Page</a></li> -->
+                        <li><a href="<?php echo base_url('admin/homepage-details'); ?>">Home Page</a></li>
                         <li><a href="<?php echo base_url('admin/aboutpage-details'); ?>">About Us Page</a></li>
                         <li><a href="<?php echo base_url('admin/privacy-policy-page-details'); ?>">Privacy Policy Page</a></li>
                         <li><a href="<?php echo base_url('admin/terms-conditions-page-details'); ?>">Terms & Conditions Page</a></li>

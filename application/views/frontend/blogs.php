@@ -282,14 +282,6 @@
             </div>
             <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
                 <aside class="sidebar sticky-top">
-                    <div class="sidebar-widget search-box">
-                        <form method="post" action="https://html.themerange.net/merix/merix/contact.html">
-                            <div class="form-group">
-                                <input type="search" name="search-field" value="" placeholder="Search Here" required>
-                                <button type="submit"><span class="icon fa fa-search"></span></button>
-                            </div>
-                        </form>
-                    </div>
                     <div class="sidebar-widget categories-widget">
                         <div class="sidebar-title">
                             <h4>Categories</h4>
@@ -327,87 +319,9 @@
                             </article>
                         </div>
                     </div>
-                    <div class="sidebar-widget author-widget">
-                        <div class="widget-content" style="background-image: url(<?= base_url('assets/images/background/author-bg.jpg'); ?>)">
-                            <div class="image">
-                                <img src="<?= base_url('assets/images/resource/author-7.jpg'); ?>" alt="" />
-                            </div>
-                            <div class="name">Pablo Villalpando</div>
-                            <div class="text">I got lucky because I never gave up the search. Are you quitting too soon? Or, are you willing to pursue luck with a vengeance?</div>
-                            <ul class="social-box">
-                                <li><a href="#" class="fa fa-facebook-f"></a></li>
-                                <li><a href="#" class="fa fa-linkedin"></a></li>
-                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                <li><a href="#" class="fa fa-google"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="sidebar-widget instagram-widget">
-                        <div class="sidebar-title">
-                            <h4>Instagram</h4>
-                        </div>
-                        <div class="widget-content">
-                            <div class="clearfix">
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-1.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-2.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-3.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-4.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-5.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                                <figure class="post-thumb"><img src="<?= base_url('assets/images/resource/instagram-6.jpg'); ?>" alt=""><a href="news-detail.html" class="overlay-box"><span class="icon fa fa-link"></span></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sidebar-widget popular-tags">
-                        <div class="sidebar-title">
-                            <h4>Tags</h4>
-                        </div>
-                        <div class="widget-content">
-                            <a href="#">Business</a>
-                            <a href="#">Marketing</a>
-                            <a href="#">SEO</a>
-                            <a href="#">SEO</a>
-                            <a href="#">SMM</a>
-                            <a href="#">Solution</a>
-                            <a href="#">Tips</a>
-                            <a href="#">Startup</a>
-                            <a href="#">Strategy</a>
-                        </div>
-                    </div>
                 </aside>
             </div>
         </div>
     </div>
 </div>
-<section class="clients-section style-two">
-    <div class="auto-container">
-        <div class="sponsors-outer">
-            <ul class="sponsors-carousel owl-carousel owl-theme">
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/1.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/2.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/3.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/4.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/5.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/1.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/2.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/3.png'); ?>" alt=""></a></figure>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
 <?php $this->load->view("frontend/layout/footer.php"); ?>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Akshar Webtech | Homepage</title>
+    <title><?= SITE_NAME; ?> | Homepage</title>
     <link href="<?= base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/responsive.css'); ?>" rel="stylesheet">

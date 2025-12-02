@@ -599,6 +599,15 @@
 			}
 		});
 	}
+
+	// show button when scrolling
+	$(window).on("scroll", function () {
+		if ($(this).scrollTop() > 200) {
+			$(".back-to-top").addClass("show-back-to-top");
+		} else {
+			$(".back-to-top").removeClass("show-back-to-top");
+		}
+	});
 	// Scroll to a Specific Div
 	if ($('.scroll-to-target').length) {
 		$(".scroll-to-target").on('click', function () {

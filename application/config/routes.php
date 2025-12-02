@@ -113,29 +113,12 @@ $route['admin/update-refund-policy-page-details'] = 'admin/Pages/update_refund_p
 $route['admin/shipping-policy-page-details'] = 'admin/Pages/shipping_policy_page_details';
 $route['admin/update-shipping-policy-page-details'] = 'admin/Pages/update_shipping_policy_page_details';
 
-$route['admin/products-list'] = 'admin/Products/products_list';
-$route['admin/add-products'] = 'admin/Products/add_products';
-$route['admin/products-commit'] = 'admin/Products/products_commit';
-$route['admin/edit-products/(:any)'] = 'admin/Products/edit_products/$1';
-$route['admin/view-products-details/(:any)'] = 'admin/Products/view_products_details/$1';
-$route['admin/delete-products/(:any)'] = 'admin/Products/delete_products/$1';
-$route['admin/delete-products-image/(:any)'] = 'admin/Products/delete_products_image/$1';
-
 $route['admin/category-list'] = 'admin/Category/category_list';
 $route['admin/add-category'] = 'admin/Category/add_category';
 $route['admin/category-commit'] = 'admin/Category/category_commit';
 $route['admin/edit-category/(:any)'] = 'admin/Category/edit_category/$1';
 $route['admin/delete-category/(:any)'] = 'admin/Category/delete_category/$1';
 
-$route['admin/orders-list'] = 'admin/Orders/orders_list';
-$route['admin/view-order-details/(:any)'] = 'admin/Orders/view_order_details/$1';
-$route['admin/edit-order-status/(:any)'] = 'admin/Orders/edit_order_status/$1';
-$route['admin/order-status-commit'] = 'admin/Orders/order_status_commit';
-
-$route['admin/users-list'] = 'admin/Users/users_list';
-$route['admin/view-user-details/(:any)'] = 'admin/Users/view_users_details/$1';
-
-$route['admin/payments-list'] = 'admin/Payments/payments_list';
 
 $route['admin/slider-list'] = 'admin/Slider/slider_list';
 $route['admin/add-slider'] = 'admin/Slider/add_slider';
@@ -148,12 +131,6 @@ $route['admin/add-testimonials'] = 'admin/Testimonials/add_testimonials';
 $route['admin/testimonials-commit'] = 'admin/Testimonials/testimonials_commit';
 $route['admin/edit-testimonials/(:any)'] = 'admin/Testimonials/edit_testimonials/$1';
 $route['admin/delete-testimonials/(:any)'] = 'admin/Testimonials/delete_testimonials/$1';
-
-$route['admin/coupon-list'] = 'admin/Coupon/coupon_list';
-$route['admin/add-coupon'] = 'admin/Coupon/add_coupon';
-$route['admin/coupon-commit'] = 'admin/Coupon/coupon_commit';
-$route['admin/edit-coupon/(:any)'] = 'admin/Coupon/edit_coupon/$1';
-$route['admin/delete-coupon/(:any)'] = 'admin/Coupon/delete_coupon/$1';
 
 
 /*** for invoice save and download ***/

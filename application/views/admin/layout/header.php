@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <meta name="description" content="Swing well admin panel">
+    <meta name="description" content="<?= SITE_NAME; ?> admin panel">
 
-    <title>Swing Well Admin Panel</title>
+    <title><?= SITE_NAME; ?> | Admin Panel</title>
     <!-- Favicon-->
     <link rel="icon" href="<?php echo base_url('assets/admin/images/favicon.png'); ?>" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo base_url('assets/admin/plugins/bootstrap/css/bootstrap.min.css'); ?>">
