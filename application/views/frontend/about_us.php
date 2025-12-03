@@ -26,7 +26,7 @@
                                 <div class="icon-box">
                                     <span class="icon flaticon-badge"></span>
                                 </div>
-                                <h5><a href="content-marketing.html">Best Security</a></h5>
+                                <h5><a href="<?= base_url('services'); ?>">Best Security</a></h5>
                                 <div class="text">We have seen great successes with everyone companies.</div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                                 <div class="icon-box">
                                     <span class="icon flaticon-chat-3"></span>
                                 </div>
-                                <h5><a href="content-marketing.html">Risk Manage</a></h5>
+                                <h5><a href="<?= base_url('services'); ?>">Risk Manage</a></h5>
                                 <div class="text">Every business and industry requires an approach in our Heand.</div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                 <div class="icon-box">
                                     <span class="icon flaticon-growth"></span>
                                 </div>
-                                <h5><a href="content-marketing.html">Growth Revenue</a></h5>
+                                <h5><a href="<?= base_url('services'); ?>">Growth Revenue</a></h5>
                                 <div class="text">You make sure you know how campaign is performing Business</div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                 <div class="icon-box">
                                     <span class="icon flaticon-management"></span>
                                 </div>
-                                <h5><a href="content-marketing.html">Greate Support</a></h5>
+                                <h5><a href="<?= base_url('services'); ?>">Greate Support</a></h5>
                                 <div class="text">To generate highly focused leads ready to purchases our service</div>
                             </div>
                         </div>
@@ -66,13 +66,13 @@
                         <div class="title">WHY US CHOOSE NOW</div>
                         <h2>We Provide the Best <br> Facilites For Business</h2>
                     </div>
-                    <div class="bold-text">From keyword research to technical auditing to site migration, our team of technical SEOs are true experts in their field.</div>
+                    <div class="bold-text">At Akshar Webtech, we create powerful digital solutions that help businesses grow. From web and mobile development to branding and digital marketing, we deliver innovative, user-focused products that make an impact. Our team believes in quality, creativity, and long-term partnerships to drive our clients’ success.</div>
                     <ul class="list-style-three">
-                        <li>We've been supporting WordPress since the beginning.</li>
-                        <li>Perfect for large sites or agencies managing multiple clients.</li>
-                        <li>Our easy-to-use control panel and API let you spend</li>
+                        <li>We build modern, scalable web and mobile products tailored to your business needs.</li>
+                        <li>Clean, intuitive, and engaging UI/UX that enhances user experience and drives results.</li>
+                        <li>Professional project execution with quality assurance and timely delivery—every time.</li>
                     </ul>
-                    <a href="contact.html" class="theme-btn btn-style-three"><span class="txt">Learn More</span></a>
+                    <a href="<?= base_url('contact-us'); ?>" class="theme-btn btn-style-three"><span class="txt">Contact Us</span></a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                             <div class="content">
                                 <div class="icon flaticon-in-love"></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="2500" data-stop="230">0</span>+
+                                    <span class="count-text" data-speed="2500" data-stop="20">0</span>+
                                 </div>
                                 <h4 class="counter-title">ACTIVE CLIENTS</h4>
                             </div>
@@ -99,7 +99,7 @@
                             <div class="content">
                                 <div class="icon flaticon-mentor"></div>
                                 <div class="count-outer count-box alternate">
-                                    <span class="count-text" data-speed="2000" data-stop="95">0</span>+
+                                    <span class="count-text" data-speed="2000" data-stop="5">0</span>+
                                 </div>
                                 <h4 class="counter-title">TEAM ADVISORS</h4>
                             </div>
@@ -110,7 +110,7 @@
                             <div class="content">
                                 <div class="icon flaticon-target"></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="4000" data-stop="820">0</span>+
+                                    <span class="count-text" data-speed="4000" data-stop="50">0</span>+
                                 </div>
                                 <h4 class="counter-title">PROJECTS DONE</h4>
                             </div>
@@ -121,7 +121,7 @@
                             <div class="content">
                                 <div class="icon flaticon-united"></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="2000" data-stop="25">0</span>+
+                                    <span class="count-text" data-speed="2000" data-stop="3">0</span>+
                                 </div>
                                 <h4 class="counter-title">GLORIOUS YEARS</h4>
                             </div>
@@ -146,13 +146,13 @@
                 <div class="inner-column">
                     <div class="sec-title">
                         <div class="title">WHO WE ARE</div>
-                        <h2>To Change Your View For <br> SEO Our Mission</h2>
+                        <h2>Empowering Businesses with Digital Innovation</h2>
                     </div>
-                    <div class="bold-text">Merix is a brand of digital agency. Competen novate synergstic vortas through forward strategic theme areas Compelling extend super was that Proactive myocardinate vertical strategic</div>
+                    <div class="bold-text">At Akshar Webtech, we craft modern, scalable, and user-centric digital solutions that help businesses grow faster. With a blend of creativity, technology, and strategy, we transform ideas into high-performing digital products that deliver real results.</div>
                     <ul class="mission-list">
-                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/mission-1.png'); ?>" alt="" /></span>If Google can’t crawl your site, it’s not going to rank – but that doesn’t mean avoiding Javascript.</li>
-                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/mission-2.png'); ?>" alt="" /></span>For businesses which sell products online & and improve their product listings in the search results..</li>
-                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/mission-3.png'); ?>" alt="" /></span>If you’re investing in a new website it’s important to ensure it’s built to succeed in the search results too.</li>
+                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/step-arrow-one.png'); ?>" alt="" /></span>Custom Digital Solutions – Tailored websites, apps, and software to match your business needs.</li>
+                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/step-arrow-two.png'); ?>" alt="" /></span>User-Focused Design – Clean, intuitive interfaces for a seamless user experience.</li>
+                        <li><span class="icon"><img src="<?= base_url('assets/images/icons/step-arrow-three.png'); ?>" alt="" /></span>Reliable Delivery – Quality-driven development with on-time execution and ongoing support.</li>
                     </ul>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                     <div class="icon-box">
                         <div class="number">01</div>
                     </div>
-                    <h6>Advertising and Marketing</h6>
+                    <h6>Research & Planning</h6>
                 </div>
             </div>
             <div class="step-block col-lg-3 col-md-6 col-sm-12">
@@ -179,7 +179,7 @@
                     <div class="icon-box">
                         <div class="number">02</div>
                     </div>
-                    <h6>Web <br> Development</h6>
+                    <h6>Design & Development</h6>
                 </div>
             </div>
             <div class="step-block col-lg-3 col-md-6 col-sm-12">
@@ -187,7 +187,7 @@
                     <div class="icon-box">
                         <div class="number">03</div>
                     </div>
-                    <h6>Mobile App <br> Development</h6>
+                    <h6>Test & Launch</h6>
                 </div>
             </div>
             <div class="step-block col-lg-3 col-md-6 col-sm-12">
@@ -195,7 +195,7 @@
                     <div class="icon-box">
                         <div class="number">04</div>
                     </div>
-                    <h6>Search Engine Optimization</h6>
+                    <h6>SEO & Marketing</h6>
                 </div>
             </div>
         </div>
@@ -208,46 +208,46 @@
                 <div class="inner-column">
                     <div class="sec-title">
                         <div class="title">Why Choose Us</div>
-                        <h2>We dedicate for Company <br> with SEO work</h2>
+                        <h2>We help for your business grow</h2>
                     </div>
-                    <div class="text">From keyword research to technical auditing to site migration, our team of technical SEOs are true experts in their field.</div>
+                    <div class="text">We deliver smart, reliable, and innovative digital solutions that help your business grow. With expert developers, creative designers, and a customer-first approach, we ensure every project is crafted with quality, precision, and performance in mind—making us a trusted partner for your digital success.</div>
                     <div class="skills">
                         <div class="skill-item">
                             <div class="skill-header clearfix">
-                                <div class="skill-title">Keyword Research</div>
+                                <div class="skill-title">Design and Development</div>
                                 <div class="skill-percentage">
-                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="70">0</span>%</div>
+                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="100">0</span>%</div>
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="70"></div>
+                                    <div class="bar progress-line" data-width="100"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-header clearfix">
-                                <div class="skill-title">Technical SEO Audit</div>
+                                <div class="skill-title">SEO</div>
                                 <div class="skill-percentage">
-                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="80">0</span>%</div>
+                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="96">0</span>%</div>
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="80"></div>
+                                    <div class="bar progress-line" data-width="96"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-header clearfix">
-                                <div class="skill-title">Content Optimization</div>
+                                <div class="skill-title">Quality and Creativity</div>
                                 <div class="skill-percentage">
-                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="60">0</span>%</div>
+                                    <div class="count-box"><span class="count-text" data-speed="2000" data-stop="100">0</span>%</div>
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="60"></div>
+                                    <div class="bar progress-line" data-width="100"></div>
                                 </div>
                             </div>
                         </div>

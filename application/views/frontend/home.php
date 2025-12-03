@@ -9,8 +9,8 @@
                 <div class="row clearfix">
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="title">What’s Your SEO Score</div>
-                            <h1>SEO Services Provide <br> For Your Agency</h1>
+                            <div class="title">Empowering Your Business with Technology</div>
+                            <h1>Smart digital solutions for your business.</h1>
                             <div class="btns-box">
                                 <a href="<?= base_url('contact-us'); ?>" class="theme-btn btn-style-three"><span class="txt">Lets Start</span></a>
                             </div>
@@ -54,8 +54,8 @@
                 <div class="row clearfix">
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="title">What’s Your SEO Score</div>
-                            <h1>SEO Services Provide <br> For Your Agency</h1>
+                            <div class="title">Future-Ready Tech</div>
+                            <h1>Scalable and innovative IT services.</h1>
                             <div class="btns-box">
                                 <a href="<?= base_url('contact-us'); ?>" class="theme-btn btn-style-three"><span class="txt">Lets Start</span></a>
                             </div>
@@ -99,8 +99,8 @@
                 <div class="row clearfix">
                     <div class="content-column col-lg-6 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="title">What’s Your SEO Score</div>
-                            <h1>SEO Services Provide <br> For Your Agency</h1>
+                            <div class="title">Ideas to Reality</div>
+                            <h1>We design and develop solutions that drive results.</h1>
                             <div class="btns-box">
                                 <a href="<?= base_url('contact-us'); ?>" class="theme-btn btn-style-three"><span class="txt">Lets Start</span></a>
                             </div>
@@ -150,9 +150,9 @@
                     <div class="icon-box">
                         <span class="icon flaticon-shuttle"></span>
                     </div>
-                    <h5><a href="content-marketing.html">Greate Results</a></h5>
-                    <div class="text">We have seen great successes with everyone companies.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <h5><a href="<?= base_url('services'); ?>">Digital Innovation</a></h5>
+                    <div class="text">We design smart digital solutions that help businesses adapt, evolve, and stay competitive in the modern tech landscape.</div>
+                    <a href="<?= base_url('services'); ?>" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block col-lg-3 col-md-6 col-sm-12">
@@ -163,9 +163,9 @@
                     <div class="icon-box">
                         <span class="icon flaticon-globe"></span>
                     </div>
-                    <h5><a href="content-marketing.html">Business Worth</a></h5>
-                    <div class="text">We have seen great successes with everyone companies.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <h5><a href="<?= base_url('services'); ?>">Smart Technology Solutions</a></h5>
+                    <div class="text">Our team builds reliable, scalable, and secure systems that enhance your business efficiency and long-term performance.</div>
+                    <a href="<?= base_url('services'); ?>" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block col-lg-3 col-md-6 col-sm-12">
@@ -176,9 +176,9 @@
                     <div class="icon-box">
                         <span class="icon flaticon-network"></span>
                     </div>
-                    <h5><a href="content-marketing.html">Keep Your Groth</a></h5>
-                    <div class="text">We have seen great successes with everyone companies.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <h5><a href="<?= base_url('services'); ?>">Growth-Driven Strategy</a></h5>
+                    <div class="text">Empowering your business with technology that supports continuous improvement and sustainable growth.</div>
+                    <a href="<?= base_url('services'); ?>" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block col-lg-3 col-md-6 col-sm-12">
@@ -189,9 +189,9 @@
                     <div class="icon-box">
                         <span class="icon flaticon-bar-chart"></span>
                     </div>
-                    <h5><a href="content-marketing.html">Important ROI</a></h5>
-                    <div class="text">We have seen great successes with everyone companies.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <h5><a href="<?= base_url('services'); ?>">Data-Driven Success</a></h5>
+                    <div class="text">We combine insights, analytics, and technology to deliver solutions that maximize your results and overall business impact.</div>
+                    <a href="<?= base_url('services'); ?>" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
         </div>
@@ -205,21 +205,19 @@
                 <div class="inner-column">
                     <div class="sec-title">
                         <div class="title">ABOUT US</div>
-                        <h2>Grow Business with SEO</h2>
+                        <h2>Empowering Businesses with Modern IT Solutions</h2>
                     </div>
-                    <div class="bold-text">Over 12 years Merix helping companies reach their financial and branding goals.</div>
-                    <div class="text">Over the years, we have worked with Fortune 500s and brand-new startups. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</div>
-                    <a href="about.html" class="theme-btn btn-style-three"><span class="txt">Learn More</span></a>
+                    <div class="text">For years, Akshar Webtech has been helping businesses grow through innovative technology, strategic development, and digital transformation. We combine creativity, clean coding, and modern tools to deliver solutions that enhance performance, strengthen branding, and improve customer engagement.<br>Our team works closely with startups, SMEs, and enterprise-level companies to build scalable products that drive real business results. From website development to custom software, SEO, branding, and automation — we focus on creating value that lasts.<br>We’re committed to quality, transparency, and long-term partnerships that help companies reach their full potential.</div>
+                    <a href="<?= base_url('about-us'); ?>" class="theme-btn btn-style-three"><span class="txt">Learn More</span></a>
                 </div>
             </div>
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
                     <div class="image titlt" data-tilt data-tilt-max="1">
-                        <img src="<?= base_url('assets/images/resource/about.png'); ?>" alt="" />
+                        <img src="<?= base_url('assets/images/resource/cta.png'); ?>" alt="" />
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -235,11 +233,11 @@
                         <div class="icon-three" style="background-image: url(<?= base_url('assets/images/icons/icon-3.png'); ?>)"></div>
                         <div class="icon-four" style="background-image: url(<?= base_url('assets/images/icons/icon-4.png'); ?>)"></div>
                         <div class="icon-box">
-                            <span class="icon flaticon-pie-chart"></span>
+                            <span class="icon flaticon-cart"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">Content Marketing</a></h5>
-                        <div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
+                        <h5><a href="<?= base_url('services'); ?>">eCommerce Development</a></h5>
+                        <div class="text">Transforming your vision into a thriving digital marketplace with cutting-edge functionality.</div>
                     </div>
                 </div>
                 <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
@@ -250,11 +248,11 @@
                         <div class="icon-three" style="background-image: url(<?= base_url('assets/images/icons/icon-3.png'); ?>)"></div>
                         <div class="icon-four" style="background-image: url(<?= base_url('assets/images/icons/icon-4.png'); ?>)"></div>
                         <div class="icon-box">
-                            <span class="icon flaticon-line-chart"></span>
+                            <span class="icon flaticon-pen"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">Social Marketing</a></h5>
-                        <div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
+                        <h5><a href="<?= base_url('services'); ?>">UX/UI Development</a></h5>
+                        <div class="text">Elevating digital interactions through sleek, user-centric design and seamless user experiences.</div>
                     </div>
                 </div>
                 <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
@@ -265,11 +263,11 @@
                         <div class="icon-three" style="background-image: url(<?= base_url('assets/images/icons/icon-3.png'); ?>)"></div>
                         <div class="icon-four" style="background-image: url(<?= base_url('assets/images/icons/icon-4.png'); ?>)"></div>
                         <div class="icon-box">
-                            <span class="icon flaticon-bar-chart"></span>
+                            <span class="icon flaticon-smartphone"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">App Development</a></h5>
-                        <div class="text">Create, publish, and promote engaging content to generate more traffic and build a dedicated community.</div>
+                        <h5><a href="<?= base_url('services'); ?>">App Development</a></h5>
+                        <div class="text">We are committed to providing excellence in our iOS and Android application development services.</div>
                     </div>
                 </div>
                 <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
@@ -283,7 +281,7 @@
                             <span class="icon flaticon-search-1"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">SEO Optimization</a></h5>
+                        <h5><a href="<?= base_url('services'); ?>">SEO Optimization</a></h5>
                         <div class="text">Get more website traffic, more customers, and more online visibility with powerful SEO services.</div>
                     </div>
                 </div>
@@ -298,8 +296,8 @@
                             <span class="icon flaticon-gear"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">Web Development</a></h5>
-                        <div class="text">Your website has to impress your visitors within just a few seconds. If it runs slow, if it feels outdated.</div>
+                        <h5><a href="<?= base_url('services'); ?>">Web Development</a></h5>
+                        <div class="text">Design and develop engaging digital experiences that leave a lasting impression.</div>
                     </div>
                 </div>
                 <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
@@ -313,111 +311,8 @@
                             <span class="icon flaticon-cloud-computing"></span>
                             <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                         </div>
-                        <h5><a href="content-marketing.html">PPC Advertising</a></h5>
-                        <div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="clients-section style-three">
-    <div class="auto-container">
-        <div class="sponsors-outer">
-            <ul class="sponsors-carousel owl-carousel owl-theme">
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/1.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/2.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/3.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/4.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/5.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/1.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/2.png'); ?>" alt=""></a></figure>
-                </li>
-                <li class="slide-item">
-                    <figure class="image-box"><a href="#"><img src="<?= base_url('assets/images/clients/3.png'); ?>" alt=""></a></figure>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section class="call-to-action-section" style="background-image: url(<?= base_url('assets/images/background/map-pattern.png'); ?>)">
-    <div class="circle-layer" style="background-image: url(<?= base_url('assets/images/resource/cta-bg.png'); ?>)"></div>
-    <div class="auto-container">
-        <div class="row clearfix">
-            <div class="title-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <h2>Take Your Site to Next Level At this moment!</h2>
-                    <div class="text">Make the Right Choice for Your Future. Choose Moto!</div>
-                    <a href="about.html" class="theme-btn btn-style-three"><span class="txt">Lets Start</span></a>
-                </div>
-            </div>
-            <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column">
-                    <div class="image titlt" data-tilt data-tilt-max="3">
-                        <img src="<?= base_url('assets/images/resource/cta.png'); ?>" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="counter-section margin-top">
-    <div class="auto-container">
-        <div class="inner-container">
-            <div class="fact-counter">
-                <div class="row clearfix">
-                    <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="2500" data-stop="230">0</span>+
-                                </div>
-                                <h4 class="counter-title">ACTIVE CLIENTS</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="count-outer count-box alternate">
-                                    <span class="count-text" data-speed="2000" data-stop="95">0</span>+
-                                </div>
-                                <h4 class="counter-title">TEAM ADVISORS</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="4000" data-stop="820">0</span>+
-                                </div>
-                                <h4 class="counter-title">PROJECTS DONE</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="2000" data-stop="25">0</span>+
-                                </div>
-                                <h4 class="counter-title">GLORIOUS YEARS</h4>
-                            </div>
-                        </div>
+                        <h5><a href="<?= base_url('services'); ?>">Digital Marketing</a></h5>
+                        <div class="text">Digital marketing is the most effective way to get traffic for your business and is become digital revolution now days.</div>
                     </div>
                 </div>
             </div>
@@ -540,10 +435,10 @@
                 <div class="pull-left">
                     <div class="title">OUR BLOG</div>
                     <h2>Our Latest Media</h2>
-                    <div class="text">Our campaigns get your business in front of the right people at the <br> right time to increase organic traffic and boost engagement.</div>
+                    <div class="text">Stay updated with fresh ideas, tech news, and smart digital solutions.</div>
                 </div>
                 <div class="pull-right">
-                    <a href="blog.html" class="theme-btn btn-style-three"><span class="txt">All News</span></a>
+                    <a href="<?= base_url('blogs'); ?>" class="theme-btn btn-style-three"><span class="txt">All News</span></a>
                 </div>
             </div>
         </div>

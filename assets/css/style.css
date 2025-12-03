@@ -6697,10 +6697,10 @@ img {
 	-webkit-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
-	background: #D84DE2;
-	background: -webkit-linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
-	background: -moz-linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
-	background: linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
+	background: #fd8b56;
+	background: -webkit-linear-gradient(to bottom, #fd8b56 0%, #EA3368 100%);
+	background: -moz-linear-gradient(to bottom, #fd8b56 0%, #EA3368 100%);
+	background: linear-gradient(to bottom, #fd8b56 0%, #EA3368 100%);
 }
 
 .service-block-four .inner-box .arrow-icon {
@@ -8469,7 +8469,7 @@ img {
 	color: #555555;
 	font-size: 16px;
 	line-height: 1.9em;
-	padding-left: 90px;
+	padding-left: 50px;
 	margin-bottom: 30px;
 }
 
