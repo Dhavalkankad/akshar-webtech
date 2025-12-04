@@ -21,19 +21,23 @@
                                     <div class="form-group">
                                         <input type="text" name="contact_no" class="form-control" placeholder="Enter contact no." value="<?php echo $company['contact_no']; ?>">
                                     </div>
-                                    <label>Facebook link</label>
+                                    <!-- <label>Facebook link</label>
                                     <div class="form-group">
                                         <input type="text" name="facebook" class="form-control" placeholder="Enter facebook link" value="<?php echo $company['facebook']; ?>">
-                                    </div>
+                                    </div> -->
                                     <label>Instagram link</label>
                                     <div class="form-group">
                                         <input type="text" name="instagram" class="form-control" placeholder="Enter instagram link" value="<?php echo $company['instagram']; ?>">
                                     </div>
-                                    <label>Google link</label>
+                                    <label>Linkedin link</label>
+                                    <div class="form-group">
+                                        <input type="text" name="linkedin" class="form-control" placeholder="Enter linkedin link" value="<?php echo $company['linkedin']; ?>">
+                                    </div>
+                                    <!-- <label>Google link</label>
                                     <div class="form-group">
                                         <input type="text" name="google" class="form-control" placeholder="Enter google link" value="<?php echo $company['google']; ?>">
-                                    </div>
-                                    <label>Meta Keywords (e.g. Swing well cradle, Cradle, Swing Well)</label>
+                                    </div> -->
+                                    <label>Meta Keywords (e.g. Akshar Webtech, Akshar)</label>
                                     <div class="form-group">
                                         <textarea name="meta_keywords" class="form-control" style="height:150px;" placeholder="Enter meta keywords"><?php echo $company['meta_keywords']; ?></textarea>
                                     </div>

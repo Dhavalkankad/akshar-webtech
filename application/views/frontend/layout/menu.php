@@ -19,7 +19,6 @@
                             <li class="<?php echo ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'home') ? 'current' : ''; ?>"><a href="<?= base_url('home'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>">Home</a></li>
                             <li class="<?php echo ($this->uri->segment(1) == 'about-us') ? 'current' : ''; ?>"><a href="<?= base_url('about-us'); ?>">About Us</a></li>
                             <li class="<?php echo ($this->uri->segment(1) == 'services') ? 'current' : ''; ?>"><a href="<?= base_url('services'); ?>">Services</a></li>
-                            <li class="<?php echo ($this->uri->segment(1) == 'blogs') ? 'current' : ''; ?>"><a href="<?= base_url('blogs'); ?>">Blogs</a></li>
                             <li class="<?php echo ($this->uri->segment(1) == 'contact-us') ? 'current' : ''; ?>"><a href="<?= base_url('contact-us'); ?>">Contact Us</a></li>
                         </ul>
                     </div>

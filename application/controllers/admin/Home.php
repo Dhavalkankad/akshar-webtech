@@ -53,9 +53,10 @@ class Home extends CI_Controller
             $this->form_validation->set_rules('contact_no', 'contact_no', 'required');
             $this->form_validation->set_rules('whatsapp_no', 'whatsapp_no', 'required');
             $this->form_validation->set_rules('address', 'address', 'required');
-            $this->form_validation->set_rules('facebook', 'facebook', 'required');
+            // $this->form_validation->set_rules('facebook', 'facebook', 'required');
             $this->form_validation->set_rules('instagram', 'instagram', 'required');
-            $this->form_validation->set_rules('google', 'google', 'required');
+            $this->form_validation->set_rules('linkedin', 'linkedin', 'required');
+            // $this->form_validation->set_rules('google', 'google', 'required');
             // $this->form_validation->set_rules('aboutus', 'aboutus', 'required');
             $this->form_validation->set_rules('company_map', 'company_map', 'required');
             $this->form_validation->set_rules('meta_keywords', 'meta_keywords', 'required');
@@ -66,9 +67,10 @@ class Home extends CI_Controller
                     'contact_no' => trim($this->input->post('contact_no')),
                     'whatsapp_no' => trim($this->input->post('whatsapp_no')),
                     'address' => trim($this->input->post('address')),
-                    'facebook' => trim($this->input->post('facebook')),
+                    // 'facebook' => trim($this->input->post('facebook')),
                     'instagram' => trim($this->input->post('instagram')),
-                    'google' => trim($this->input->post('google')),
+                    'linkedin' => trim($this->input->post('linkedin')),
+                    // 'google' => trim($this->input->post('google')),
                     // 'aboutus' => trim($this->input->post('aboutus')),
                     'company_map' => trim($this->input->post('company_map')),
                     'meta_keywords' => trim($this->input->post('meta_keywords')),

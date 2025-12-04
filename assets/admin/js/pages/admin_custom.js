@@ -1,31 +1,16 @@
 ﻿$(document).ready(function () {
 
     $('.contact_us_table').DataTable({
-        aaSorting: [[4, 'desc']]
-    });
-    $('.products_table').DataTable({
-        aaSorting: [[5, 'asc']]
+        aaSorting: [[5, 'desc']]
     });
     $('.category_table').DataTable({
         aaSorting: [[5, 'desc']]
     });
-    $('.orders_table').DataTable({
-        aaSorting: [[7, 'desc']]
-    });
-    $('.payments_table').DataTable({
-        aaSorting: [[4, 'desc']]
-    });
-    $('.users_table').DataTable({
-        aaSorting: [[4, 'desc']]
-    });
     $('.testimonials_table').DataTable({
-        aaSorting: [[5, 'desc']]
+        aaSorting: [[6, 'desc']]
     });
     $('.slider_table').DataTable({
         aaSorting: [[1, 'asc']]
-    });
-    $('.coupon_table').DataTable({
-        aaSorting: [[7, 'desc']]
     });
 
     /** Edit record **/
@@ -201,15 +186,18 @@
             address: {
                 required: true,
             },
-            facebook: {
-                required: true,
-            },
+            // facebook: {
+            //     required: true,
+            // },
             instagram: {
                 required: true,
             },
-            google: {
+            linkedin: {
                 required: true,
             },
+            // google: {
+            //     required: true,
+            // },
             company_map: {
                 required: true,
             },
@@ -234,15 +222,18 @@
             address: {
                 required: 'Enter company address.',
             },
-            facebook: {
-                required: 'Enter company facebook link.',
-            },
+            // facebook: {
+            //     required: 'Enter company facebook link.',
+            // },
             instagram: {
                 required: 'Enter company instagram link.',
             },
-            google: {
-                required: 'Enter company google link.',
+            linkedin: {
+                required: 'Enter company linkedin link.',
             },
+            // google: {
+            //     required: 'Enter company google link.',
+            // },
             company_map: {
                 required: 'Enter location map iFrame.',
             },

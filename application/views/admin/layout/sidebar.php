@@ -34,13 +34,13 @@
 
                 <li class="open <?php echo ($this->uri->segment(2) == 'contactus') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/contactus'); ?>"><i class="zmdi zmdi-email"></i> <span>Contact Us</span></a></li>
 
-                <li class="open <?php echo ($this->uri->segment(2) == 'category-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/category-list'); ?>"><i class="zmdi zmdi-format-list-bulleted"></i><span>Category</span></a></li>
+                <!-- <li class="open <?php echo ($this->uri->segment(2) == 'category-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/category-list'); ?>"><i class="zmdi zmdi-format-list-bulleted"></i><span>Blog Category</span></a></li> -->
 
                 <li class="open <?php echo ($this->uri->segment(2) == 'testimonials-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/testimonials-list'); ?>"><i class="zmdi zmdi-quote"></i><span>Testimonials</span></a></li>
 
-                <li class="open <?php echo ($this->uri->segment(2) == 'slider-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/slider-list'); ?>"><i class="zmdi zmdi-image"></i><span>Slider</span></a></li>
+                <!-- <li class="open <?php echo ($this->uri->segment(2) == 'slider-list') ? 'active' : ''; ?>"> <a href="<?php echo base_url('admin/slider-list'); ?>"><i class="zmdi zmdi-image"></i><span>Slider</span></a></li> -->
 
-                <li class="<?php echo ($this->uri->segment(2) == 'homepage-details' || $this->uri->segment(2) == 'service-support-details' || $this->uri->segment(2) == 'privacy-policy-page-details' || $this->uri->segment(2) == 'terms-conditions-page-details' || $this->uri->segment(2) == 'cancellation-returns-policy-page-details' || $this->uri->segment(2) == 'refund-policy-page-details' || $this->uri->segment(2) == 'shipping-policy-page-details' || $this->uri->segment(2) == 'aboutpage-details') ? 'open active' : ''; ?>"> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-file-text"></i><span>Pages details</span></a>
+                <!-- <li class="<?php echo ($this->uri->segment(2) == 'homepage-details' || $this->uri->segment(2) == 'service-support-details' || $this->uri->segment(2) == 'privacy-policy-page-details' || $this->uri->segment(2) == 'terms-conditions-page-details' || $this->uri->segment(2) == 'cancellation-returns-policy-page-details' || $this->uri->segment(2) == 'refund-policy-page-details' || $this->uri->segment(2) == 'shipping-policy-page-details' || $this->uri->segment(2) == 'aboutpage-details') ? 'open active' : ''; ?>"> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-file-text"></i><span>Pages details</span></a>
                     <ul class="ml-menu">
                         <li><a href="<?php echo base_url('admin/homepage-details'); ?>">Home Page</a></li>
                         <li><a href="<?php echo base_url('admin/aboutpage-details'); ?>">About Us Page</a></li>
@@ -50,13 +50,13 @@
                         <li><a href="<?php echo base_url('admin/refund-policy-page-details'); ?>">Refund Policy Page</a></li>
                         <li><a href="<?php echo base_url('admin/shipping-policy-page-details'); ?>">Shipping Policy Page</a></li>
                     </ul>
-                </li>
+                </li> -->
 
                 <li class="<?php echo ($this->uri->segment(2) == 'settings' || $this->uri->segment(2) == 'company-details') ? 'open active' : ''; ?>"> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-settings"></i><span>Settings</span></a>
                     <ul class="ml-menu">
                         <li><a href="<?php echo base_url('admin/settings'); ?>">Profile settings</a></li>
                         <li><a href="<?php echo base_url('admin/company-details'); ?>">Company Details</a></li>
-                        <li><a href="<?php echo base_url('admin/invoice-settings'); ?>">Invoice Settings</a></li>
+                        <!-- <li><a href="<?php echo base_url('admin/invoice-settings'); ?>">Invoice Settings</a></li> -->
                     </ul>
                 </li>
 

@@ -71,19 +71,35 @@ class Testimonials extends CI_Controller
         $data = array();
         if ($this->input->post()) {
             $this->form_validation->set_rules('name', 'Customer Name', 'required|trim');
-            $this->form_validation->set_rules('city', 'City', 'required|trim');
+            $this->form_validation->set_rules('position', 'Position', 'required|trim');
             $this->form_validation->set_rules('rating', 'Rating', 'required|integer|less_than_equal_to[5]|greater_than_equal_to[1]');
             $this->form_validation->set_rules('description', 'Description', 'required|trim');
             $this->form_validation->set_rules('status', 'Status', 'required');
             if ($this->form_validation->run() == true) {
                 $details = array(
                     'name'        => trim($this->input->post('name')),
-                    'city'        => trim($this->input->post('city')),
+                    'position'        => trim($this->input->post('position')),
                     'rating'      => (int)$this->input->post('rating'), // 1 to 5
                     'description' => trim($this->input->post('description')),
                     'status'      => $this->input->post('status')
                 );
                 if (($this->input->post('id') != "")) {
+                    if (!empty($_FILES['image']['name'])) {
+                        $upload_path = 'uploads/testimonials';
+                        if (!is_dir($upload_path)) {
+                            mkdir($upload_path, 0755, true);
+                        }
+                        unlink($this->input->post('old_image'));
+                        $config['upload_path'] = $upload_path;
+                        $config['allowed_types'] = 'gif|jpg|jpeg|png|webp|svg';
+                        $config['file_name'] = time() . rand() . '_' . $_FILES['image']['name'];
+                        $this->load->library('upload', $config);
+                        if ($this->upload->do_upload('image')) {
+                            $uploadData = $this->upload->data();
+                            $filepath = $upload_path . '/' . $uploadData['file_name'];
+                            $details['image'] = $filepath;
+                        }
+                    }
                     $where = array('id' => $this->input->post('id'));
                     if ($this->Testimonials_model->update_testimonials($details, $where)) {
                         $this->session->set_flashdata('success', 'Testimonials updated successfully.');
@@ -91,6 +107,21 @@ class Testimonials extends CI_Controller
                         $this->session->set_flashdata('error', 'Something went wrong! please try again later.');
                     }
                 } else {
+                    if (!empty($_FILES['image']['name'])) {
+                        $upload_path = 'uploads/testimonials';
+                        if (!is_dir($upload_path)) {
+                            mkdir($upload_path, 0755, true);
+                        }
+                        $config['upload_path'] = $upload_path;
+                        $config['allowed_types'] = 'gif|jpg|jpeg|png|webp|svg';
+                        $config['file_name'] = time() . rand() . '_' . $_FILES['image']['name'];
+                        $this->load->library('upload', $config);
+                        if ($this->upload->do_upload('image')) {
+                            $uploadData = $this->upload->data();
+                            $filepath = $upload_path . '/' . $uploadData['file_name'];
+                            $details['image'] = $filepath;
+                        }
+                    }
                     $last_id = $this->Testimonials_model->insert_testimonials($details);
                     if ($last_id > 0) {
                         $this->session->set_flashdata('success', 'Testimonials added successfully.');

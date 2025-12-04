@@ -331,182 +331,37 @@
             <h2>What They Say About Our <br> Company?</h2>
             <div class="text">We know how important customer experience is for a busines and therefore, <br> we trive to make your company excel in this.</div>
         </div>
-        <div class="testimonial-carousel owl-carousel owl-theme">
-            <div class="testimonial-block">
-                <div class="inner-box">
-                    <div class="pattern-layer"></div>
-                    <div class="author-image-outer">
-                        <div class="author-image">
-                            <img src="<?= base_url('assets/images/resource/author-1.png'); ?>" alt="" />
-                        </div>
-                        <div class="rating">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div class="text">I had so much fun working with your specialists on my business project that we will come back soom!</div>
-                        <div class="lower-box">
-                            <div class="quote-icon fa fa-quote-left"></div>
-                            <h6>Margaret Sunsan</h6>
-                            <div class="designation">Develper</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-block">
-                <div class="inner-box">
-                    <div class="pattern-layer"></div>
-                    <div class="author-image-outer">
-                        <div class="author-image">
-                            <img src="<?= base_url('assets/images/resource/author-2.png'); ?>" alt="" />
-                        </div>
-                        <div class="rating">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star dark"></span>
-                        </div>
-                        <div class="text">i liked working with these creative guys, who know everything about quality design, innovations and usability,</div>
-                        <div class="lower-box">
-                            <div class="quote-icon fa fa-quote-left"></div>
-                            <h6>Eizabeth Blackwell</h6>
-                            <div class="designation">Web Designer</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-block">
-                <div class="inner-box">
-                    <div class="pattern-layer"></div>
-                    <div class="author-image-outer">
-                        <div class="author-image">
-                            <img src="<?= base_url('assets/images/resource/author-1.png'); ?>" alt="" />
-                        </div>
-                        <div class="rating">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div class="text">I had so much fun working with your specialists on my business project that we will come back soom!</div>
-                        <div class="lower-box">
-                            <div class="quote-icon fa fa-quote-left"></div>
-                            <h6>Margaret Sunsan</h6>
-                            <div class="designation">Develper</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-block">
-                <div class="inner-box">
-                    <div class="pattern-layer"></div>
-                    <div class="author-image-outer">
-                        <div class="author-image">
-                            <img src="<?= base_url('assets/images/resource/author-2.png'); ?>" alt="" />
-                        </div>
-                        <div class="rating">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star dark"></span>
-                        </div>
-                        <div class="text">i liked working with these creative guys, who know everything about quality design, innovations and usability,</div>
-                        <div class="lower-box">
-                            <div class="quote-icon fa fa-quote-left"></div>
-                            <h6>Eizabeth Blackwell</h6>
-                            <div class="designation">Web Designer</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="news-section">
-    <div class="pattern-layer" style="background-image: url(<?= base_url('assets/images/resource/cta-bg.png'); ?>)"></div>
-    <div class="auto-container">
-        <div class="sec-title">
-            <div class="clearfix">
-                <div class="pull-left">
-                    <div class="title">OUR BLOG</div>
-                    <h2>Our Latest Media</h2>
-                    <div class="text">Stay updated with fresh ideas, tech news, and smart digital solutions.</div>
-                </div>
-                <div class="pull-right">
-                    <a href="<?= base_url('blogs'); ?>" class="theme-btn btn-style-three"><span class="txt">All News</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row clearfix">
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image">
-                        <img src="<?= base_url('assets/images/resource/news-1.jpg'); ?>" alt="" />
-                        <div class="overlay-box">
-                            <div class="overlay-inner">
-                                <div class="content">
-                                    <a href="news-detail.html" class="icon flaticon-unlink"></a>
+        <?php if (!empty($testimonials_details)) { ?>
+            <div class="testimonial-carousel owl-carousel owl-theme">
+                <?php foreach ($testimonials_details as $row) { ?>
+                    <div class="testimonial-block">
+                        <div class="inner-box">
+                            <div class="pattern-layer"></div>
+                            <div class="author-image-outer">
+                                <div class="author-image">
+                                    <img src="<?php echo get_user_image($row['image']); ?>" alt="" />
+                                </div>
+                                <div class="rating">
+                                    <?php for ($i = 1; $i <= 5; $i++) {
+                                        if ($i <= $row['rating']) {
+                                            echo '<span class="fa fa-star"></span>';
+                                        } else {
+                                            echo '<span class="fa fa-star-o"></span>';
+                                        }
+                                    } ?>
+                                </div>
+                                <div class="text"><?= $row['description']; ?></div>
+                                <div class="lower-box">
+                                    <div class="quote-icon fa fa-quote-left"></div>
+                                    <h6><?= $row['name']; ?></h6>
+                                    <div class="designation"><?= $row['position']; ?></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="lower-content">
-                        <ul class="post-meta">
-                            <li><a href="news-detail.html"><span class="icon fa fa-user"></span> Pablo Villalpando</a></li>
-                            <li><a href="news-detail.html"><span class="icon fa fa-calendar"></span> November 21, 2025</a></li>
-                        </ul>
-                        <h5><a href="news-detail.html">Google now disregards or overlooks all reciprocal links</a></h5>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image">
-                        <img src="<?= base_url('assets/images/resource/news-2.jpg'); ?>" alt="" />
-                        <div class="overlay-box">
-                            <div class="overlay-inner">
-                                <div class="content">
-                                    <a href="news-detail.html" class="icon flaticon-unlink"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lower-content">
-                        <ul class="post-meta">
-                            <li><a href="news-detail.html"><span class="icon fa fa-user"></span> Pablo Villalpando</a></li>
-                            <li><a href="news-detail.html"><span class="icon fa fa-calendar"></span> November 21, 2025</a></li>
-                        </ul>
-                        <h5><a href="news-detail.html">Absolute Links vs. Relative Links – SEO Intrinsic Value</a></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="image">
-                        <img src="<?= base_url('assets/images/resource/news-3.jpg'); ?>" alt="" />
-                        <div class="overlay-box">
-                            <div class="overlay-inner">
-                                <div class="content">
-                                    <a href="news-detail.html" class="icon flaticon-unlink"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lower-content">
-                        <ul class="post-meta">
-                            <li><a href="news-detail.html"><span class="icon fa fa-user"></span> Pablo Villalpando</a></li>
-                            <li><a href="news-detail.html"><span class="icon fa fa-calendar"></span> November 21, 2025</a></li>
-                        </ul>
-                        <h5><a href="news-detail.html">How to increase your ROI through scientific SEM?</a></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php } ?>
     </div>
 </section>
 <?php $this->load->view("frontend/layout/footer.php"); ?>

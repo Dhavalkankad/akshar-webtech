@@ -7,17 +7,21 @@
             <?php
             $id = "";
             $name = "";
-            $city = "";
+            $position = "";
             $rating = "";
             $description = "";
             $status = "";
+            $image = "";
+            $old_image = "";
             if (!empty($testimonials_details)) {
                 $id = $testimonials_details['id'];
                 $name = $testimonials_details['name'];
-                $city = $testimonials_details['city'];
+                $position = $testimonials_details['position'];
                 $rating = $testimonials_details['rating'];
                 $description = $testimonials_details['description'];
                 $status = $testimonials_details['status'];
+                $image = $testimonials_details['image'];
+                $old_image = $testimonials_details['image'];
             } ?>
             <form method="post" action="<?php echo base_url('admin/testimonials-commit'); ?>" id="<?php echo ($id == "") ? "add_testimonials_form" : "edit_testimonials_form"; ?>" enctype="multipart/form-data">
                 <input type="hidden" name="id" value="<?php echo $id; ?>" />
@@ -25,9 +29,9 @@
                 <div class="form-group">
                     <input type="text" name="name" id="name" class="form-control" placeholder="Enter name." value="<?php echo $name; ?>">
                 </div>
-                <label>City</label>
+                <label>Position</label>
                 <div class="form-group">
-                    <input type="text" name="city" id="city" class="form-control" placeholder="Enter city." value="<?php echo $city; ?>">
+                    <input type="text" name="position" id="position" class="form-control" placeholder="Enter position." value="<?php echo $position; ?>">
                 </div>
                 <label>Rating</label>
                 <div class="form-group">
@@ -43,6 +47,14 @@
                 <label>Description</label>
                 <div class="form-group">
                     <textarea name="description" id="description" class="form-control" placeholder="Enter description."><?php echo $description; ?></textarea>
+                </div>
+                <label>Image (112px X 112px)</label>
+                <div class="form-group">
+                    <input type="file" class="form-control" name="image" id="image" />
+                    <input type="hidden" class="form-control" name="old_image" value="<?php echo $old_image; ?>" />
+                    <?php if (isset($image) && !empty($image)) { ?>
+                        <img src="<?php echo base_url($image); ?>" class="img-thumbnail" style="height: 100px;width: 150px; margin:5px;" />
+                    <?php } ?>
                 </div>
                 <label>Status</label>
                 <div class="radio form-group">
@@ -70,7 +82,7 @@
             description: {
                 required: true
             },
-            city: {
+            position: {
                 required: true
             },
             rating: {
@@ -87,8 +99,8 @@
             description: {
                 required: 'Enter description.'
             },
-            city: {
-                required: 'Enter city.'
+            position: {
+                required: 'Enter position.'
             },
             rating: {
                 required: 'Select rating.'
@@ -111,7 +123,7 @@
             name: {
                 required: true
             },
-            city: {
+            position: {
                 required: true
             },
             rating: {
@@ -128,8 +140,8 @@
             name: {
                 required: 'Enter name.'
             },
-            city: {
-                required: 'Enter city.'
+            position: {
+                required: 'Enter position.'
             },
             rating: {
                 required: 'Select rating.'

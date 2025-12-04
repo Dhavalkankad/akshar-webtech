@@ -126,6 +126,8 @@
             </p>
             <p style="color:#455056; font-size:15px;line-height:24px; margin:0;text-align:left;"><b>Contact No: </b><?php echo $phone_no; ?>
             </p>
+            <p style="color:#455056; font-size:15px;line-height:24px; margin:0;text-align:left;"><b>Subject: </b><?php echo $subject; ?>
+            </p>
             </p>
             <p style="color:#455056; font-size:15px;line-height:24px; margin:0;text-align:left;"><b>Message: </b><?php echo $message; ?>
             </p>

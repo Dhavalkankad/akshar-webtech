@@ -15,7 +15,8 @@
                                 <thead>
                                     <tr>
                                         <th class="col-md-2 text-center">Name</th>
-                                        <th class="col-md-2 text-center">City</th>
+                                        <th class="col-md-2 text-center">Position</th>
+                                        <th class="col-md-2 text-center">Image</th>
                                         <th class="col-md-1 text-center">Rating</th>
                                         <th class="col-md-2 text-center">Description</th>
                                         <th class="col-md-1 text-center">Status</th>
@@ -35,7 +36,8 @@
                                         ?>
                                             <tr>
                                                 <td class="text-center"><?php echo $row['name']; ?></td>
-                                                <td class="text-center"><?php echo $row['city']; ?></td>
+                                                <td class="text-center"><?php echo $row['position']; ?></td>
+                                                <td><img src="<?php echo get_user_image($row['image']); ?>" class="img-thumbnail" /></td>
                                                 <td class="text-center">
                                                     <span style="font-size:30px;">
                                                         <?php
@@ -64,7 +66,8 @@
                                 <tfoot>
                                     <tr>
                                         <th class="col-md-2 text-center">Name</th>
-                                        <th class="col-md-2 text-center">City</th>
+                                        <th class="col-md-2 text-center">Position</th>
+                                        <th class="col-md-2 text-center">Image</th>
                                         <th class="col-md-1 text-center">Rating</th>
                                         <th class="col-md-2 text-center">Description</th>
                                         <th class="col-md-1 text-center">Status</th>

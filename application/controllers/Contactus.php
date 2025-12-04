@@ -22,11 +22,13 @@ class Contactus extends CI_Controller
 		$this->form_validation->set_rules('name', 'name', 'required');
 		$this->form_validation->set_rules('email', 'email', 'required');
 		$this->form_validation->set_rules('number', 'number', 'required');
+		$this->form_validation->set_rules('subject', 'subject', 'required');
 		$this->form_validation->set_rules('message', 'message', 'required');
 		if ($this->form_validation->run() == TRUE) {
 			$details = array(
 				'name' => $this->input->post('name'),
 				'email' => $this->input->post('email'),
+				'subject' => $this->input->post('subject'),
 				'phone_no' => $this->input->post('number'),
 				'message' => $this->input->post('message'),
 				'created_at' => date('Y-m-d H:i')
@@ -35,10 +37,12 @@ class Contactus extends CI_Controller
 				$email_data = array();
 				$name = $this->input->post('name');
 				$email = trim($this->input->post('email'));
+				$subject = $this->input->post('subject');
 				$phone_no = $this->input->post('number');
 				$message = $this->input->post('message');
 				$email_data['name'] = $name;
 				$email_data['email'] = $email;
+				$email_data['subject'] = $subject;
 				$email_data['phone_no'] = $phone_no;
 				$email_data['message'] = $message;
 				$to = "kankaddhaval666@gmail.com";

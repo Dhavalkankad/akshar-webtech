@@ -163,3 +163,13 @@ if (!function_exists('order_status')) {
         return $return;
     }
 }
+
+if (!function_exists('get_user_image')) {
+    function get_user_image($image_path)
+    {
+        if (file_exists(FCPATH . $image_path) && is_file(FCPATH . $image_path)) {
+            return base_url($image_path);
+        }
+        return base_url('assets/images/no-user.png');
+    }
+}

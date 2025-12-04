@@ -13,6 +13,8 @@
     <link rel="icon" href="<?= base_url('assets/images/favicon.png'); ?>" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="<?= (settings()->meta_keywords) ? settings()->meta_keywords : ''; ?>">
+    <meta name="description" content="<?= (settings()->meta_description) ? settings()->meta_description : ''; ?>">
 </head>
 
 <body class="hidden-bar-wrapper">

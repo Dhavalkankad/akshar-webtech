@@ -11,6 +11,7 @@ class Home extends CI_Controller
 		$this->load->model('Mypages_model');
 		$this->load->model('Contactus_model');
 		$this->load->model('Category_model');
+		$this->load->model('Testimonials_model');
 	}
 
 	public function index()
@@ -22,6 +23,12 @@ class Home extends CI_Controller
 			'conditions' => array('status' => '1')
 		);
 		$data['slider_details'] = $this->Slider_model->get_all_slider($slider_con);
+		$con2 = array(
+			'returnType' => '',
+			'order_by' => array('created_at' => 'desc'),
+			'conditions' => array('status' => '1')
+		);
+		$data['testimonials_details'] = $this->Testimonials_model->get_all_testimonials($con2);
 		$this->load->view('frontend/home', $data);
 	}
 

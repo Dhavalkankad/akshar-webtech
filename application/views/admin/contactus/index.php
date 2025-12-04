@@ -16,6 +16,7 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Contact No</th>
+                                        <th>Subject</th>
                                         <th>Message</th>
                                         <th>Date</th>
                                     </tr>
@@ -27,6 +28,7 @@
                                                 <td><?php echo $row['name']; ?></td>
                                                 <td><?php echo $row['email']; ?></td>
                                                 <td><?php echo $row['phone_no']; ?></td>
+                                                <td><?php echo $row['subject']; ?></td>
                                                 <td><?php echo $row['message']; ?></td>
                                                 <td><?php echo dateFormat($row['created_at']); ?></td>
                                             </tr>
@@ -38,6 +40,7 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Contact No</th>
+                                        <th>Subject</th>
                                         <th>Message</th>
                                         <th>Date</th>
                                     </tr>

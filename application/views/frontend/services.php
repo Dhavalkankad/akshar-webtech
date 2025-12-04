@@ -27,9 +27,9 @@
                         <span class="icon flaticon-pie-chart"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">Content Marketing</a></h5>
+                    <h5><a href="#">Content Marketing</a></h5>
                     <div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block-four col-lg-4 col-md-6 col-sm-12">
@@ -43,9 +43,9 @@
                         <span class="icon flaticon-line-chart"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">Social Marketing</a></h5>
+                    <h5><a href="#">Social Marketing</a></h5>
                     <div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block-four col-lg-4 col-md-6 col-sm-12">
@@ -59,9 +59,9 @@
                         <span class="icon flaticon-search-1"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">SEO Optimization</a></h5>
+                    <h5><a href="#">SEO Optimization</a></h5>
                     <div class="text">Get more website traffic, more customers, and more online visibility with powerful SEO services.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block-four col-lg-4 col-md-6 col-sm-12">
@@ -75,9 +75,9 @@
                         <span class="icon flaticon-bar-chart"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">App Development</a></h5>
+                    <h5><a href="#">App Development</a></h5>
                     <div class="text">Create, publish, and promote engaging content to generate more traffic and build a dedicated community.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block-four col-lg-4 col-md-6 col-sm-12">
@@ -91,9 +91,9 @@
                         <span class="icon flaticon-gear"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">Web Development</a></h5>
+                    <h5><a href="#">Web Development</a></h5>
                     <div class="text">Your website has to impress your visitors within just a few seconds. If it runs slow, if it feels outdated.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
             <div class="service-block-four col-lg-4 col-md-6 col-sm-12">
@@ -107,9 +107,9 @@
                         <span class="icon flaticon-cloud-computing"></span>
                         <div class="icon-five" style="background-image: url(<?= base_url('assets/images/icons/icon-6.png'); ?>)"></div>
                     </div>
-                    <h5><a href="content-marketing.html">PPC Advertising</a></h5>
+                    <h5><a href="#">PPC Advertising</a></h5>
                     <div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
-                    <a href="content-marketing.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
+                    <a href="#" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
                 </div>
             </div>
         </div>
