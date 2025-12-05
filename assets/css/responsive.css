@@ -251,7 +251,7 @@
 	
 	.main-header .header-upper .logo-box{
 		margin: 0px;
-		width:100%;
+		width:50%;
 		padding-bottom:0px;
 		text-align:center;
 	}
@@ -263,7 +263,7 @@
 	}
 	
 	.main-header .nav-outer{
-		width:100%;
+		width:49%;
 		padding-top:0px;
 	}
 	
@@ -272,12 +272,12 @@
 	}
 	
 	.sticky-header .logo{
-		width:100%;
+		width:50%;
 		text-align:center;
 	}
 	
 	.sticky-header .pull-right{
-		width:100%;
+		width:49%;
 	}
 	
 	.sticky-header .main-menu .navigation > li{
@@ -926,7 +926,7 @@
 	}
 	
 	.main-header .nav-outer{
-		width:100%;
+		width:40%;
 	}
 	
 	.main-menu .cart-box{

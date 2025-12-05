@@ -68,7 +68,6 @@
         <div class="sec-title centered">
             <div class="title">Don’t Hasitate To Contact With us</div>
             <h2>Now Very Easy</h2>
-            <div class="text">Our approach to SEO is uniquely built around what we know works…and what we know <br> doesn’t work. With over 200 verified factors in play.</div>
         </div>
         <div class="inner-container">
             <div class="contact-form">

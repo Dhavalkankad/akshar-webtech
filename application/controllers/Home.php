@@ -49,5 +49,4 @@ class Home extends CI_Controller
 		$data['aboutus_details'] = $aboutuspage_details;
 		$this->load->view('frontend/about_us', $data);
 	}
-
 }

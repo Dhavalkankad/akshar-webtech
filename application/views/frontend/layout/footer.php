@@ -5,9 +5,9 @@
     <div class="auto-container">
         <div class="widgets-section">
             <div class="row clearfix">
-                <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="big-column col-lg-12 col-md-12 col-sm-12">
                     <div class="row clearfix">
-                        <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                        <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
                                 <div class="logo">
                                     <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/logo.png'); ?>" alt="" /></a>
@@ -19,7 +19,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                        <div class="footer-column col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
                                 <h4>Menu</h4>
                                 <ul class="list-link">
@@ -30,26 +30,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="row clearfix">
-                        <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                            <div class="footer-widget gallery-widget">
-                                <h4>instagram</h4>
-                                <div class="widget-content">
-                                    <div class="images-outer clearfix">
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/1.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-1.jpg'); ?>" alt=""></a></figure>
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/2.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-2.jpg'); ?>" alt=""></a></figure>
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/3.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-3.jpg'); ?>" alt=""></a></figure>
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/4.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-4.jpg'); ?>" alt=""></a></figure>
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/1.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-5.jpg'); ?>" alt=""></a></figure>
-                                        <figure class="image-box"><a href="<?= base_url('assets/images/gallery/2.jpg'); ?>" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="<?= base_url('assets/images/gallery/footer-gallery-thumb-6.jpg'); ?>" alt=""></a></figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                        <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
                                 <h4>Contact info</h4>
                                 <ul class="list-style-two">
@@ -70,6 +51,9 @@
     </div>
 </footer>
 </div>
+<a href="https://wa.me/<?= (settings()->whatsapp_no) ? settings()->whatsapp_no : ''; ?>" class="whatsapp-float" target="_blank">
+    <img src="<?= base_url('assets/images/WhatsApp.svg'); ?>" alt="WhatsApp" />
+</a>
 <div class="back-to-top scroll-to-target" data-target="html">
     <i class="arrow-up"></i>
 </div>
