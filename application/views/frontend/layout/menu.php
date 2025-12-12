@@ -2,7 +2,7 @@
     <div class="header-upper">
         <div class="auto-container clearfix">
             <div class="pull-left logo-box">
-                <div class="logo"><a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/logo.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a></div>
+                <div class="logo"><a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/ak-white-logo.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a></div>
             </div>
             <div class="nav-outer clearfix">
                 <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
@@ -31,7 +31,7 @@
     <div class="sticky-header">
         <div class="auto-container clearfix">
             <div class="logo pull-left">
-                <a href="<?= base_url('home'); ?>" title=""><img src="<?= base_url('assets/images/logo-small.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a>
+                <a href="<?= base_url('home'); ?>" title=""><img src="<?= base_url('assets/images/ak-logo-small.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a>
             </div>
             <div class="pull-right">
                 <nav class="main-menu">
@@ -45,7 +45,7 @@
         <div class="menu-backdrop"></div>
         <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
         <nav class="menu-box">
-            <div class="nav-logo"><a href="<?= base_url('home'); ?>"><img src="<?= base_url('assets/images/logo-3.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a></div>
+            <div class="nav-logo"><a href="<?= base_url('home'); ?>"><img src="<?= base_url('assets/images/ak-logo-2.png'); ?>" alt="<?= SITE_NAME; ?>" title="<?= SITE_NAME; ?>"></a></div>
             <div class="menu-outer"></div>
         </nav>
     </div>

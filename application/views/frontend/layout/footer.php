@@ -10,7 +10,7 @@
                         <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
                                 <div class="logo">
-                                    <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/logo.png'); ?>" alt="" /></a>
+                                    <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/images/ak-white-logo.png'); ?>" alt="" /></a>
                                 </div>
                                 <div class="text">Akshar Webtech delivers modern and reliable web design, development, and digital solutions for growing businesses.</div>
                                 <ul class="social-box">
